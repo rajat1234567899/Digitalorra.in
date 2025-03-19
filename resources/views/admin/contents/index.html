@@ -1,6 +1,0 @@
-<?php
-use App\Models\Content;
-?>
-
-<h1>{{ Content::where('section', 'home')->value('content') }}</h1>
-<p>{{ Content::where('section', 'about')->value('content') }}</p>
