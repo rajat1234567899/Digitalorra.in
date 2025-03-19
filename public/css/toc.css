@@ -1,0 +1,30 @@
+#table-of-contents {
+   
+}
+
+#toc-list {
+    display: flex !important; /* Make the list inline */
+    flex-wrap: wrap !important;}
+
+.toc-link {
+    color: #007bff !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    background: #e9ecef !important;
+    padding: 5px 10px !important;
+    border-radius: 5px !important;
+    transition: 0.3s ease-in-out !important;
+    white-space: nowrap !important; /* Prevent breaking */
+}
+
+.toc-link:hover {
+    background: #007bff !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+}a.toc-link {
+    font-size: 10px;
+}
+li {
+    
+    padding: 0px 0px!important;
+}

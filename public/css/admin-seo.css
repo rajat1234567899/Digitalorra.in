@@ -1,0 +1,106 @@
+
+/* Container */
+.container {
+    max-width: 900px !important;
+    margin: auto !important;
+    padding-top: 20px !important;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 12px !important;
+    border: none !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+    background: #ffffff !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Headings */
+h1 {
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    color: #333 !important;
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: 500 !important;
+    color: #555 !important;
+}
+
+.form-control {
+    border-radius: 8px !important;
+    border: 1px solid #ced4da !important;
+    padding: 10px !important;
+    font-size: 14px !important;
+    transition: 0.3s ease !important;
+}
+
+.form-control:focus {
+    border-color: #007bff !important;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3) !important;
+}
+
+/* Textarea */
+textarea {
+    resize: none !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 10px 15px !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    transition: 0.3s ease-in-out !important;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #003f80) !important;
+}
+
+/* Alerts */
+.alert {
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+}
+
+/* Table Styling */
+.table {
+    background: white !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+.table thead {
+    background: #007bff !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.table th, .table td {
+    padding: 12px !important;
+    vertical-align: middle !important;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px !important;
+    }
+
+    .btn {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+}
